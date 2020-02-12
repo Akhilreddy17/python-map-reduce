@@ -1,0 +1,37 @@
+Anchorage	327.6
+Aurora	117.81
+Austin	1176.98
+Boston	418.94
+Buffalo	483.82
+Chandler	758.17
+Chicago	31.08
+Corpus Christi	25.38
+Fort Wayne	370.55
+Fort Worth	367.45
+Fremont	222.61
+Fresno	466.64
+Greensboro	290.82
+Honolulu	345.18
+Houston	309.16
+Indianapolis	135.96
+Las Vegas	146.65
+Lincoln	136.9
+Madison	16.78
+Minneapolis	182.05
+New York	296.8
+Newark	39.75
+Norfolk	189.01
+Omaha	491.31
+Philadelphia	351.31
+Pittsburgh	968.77
+Portland	108.69
+Reno	168.70999999999998
+Riverside	268.29
+San Bernardino	170.2
+San Diego	66.08
+San Francisco	260.65
+San Jose	429.87
+Spokane	291.5
+Stockton	247.18
+Tulsa	205.06
+Virginia Beach	376.11
