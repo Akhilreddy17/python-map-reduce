@@ -5,8 +5,8 @@ thisKey = ""
 thisValue = 0.0
 
 
-counter = 0
-old_payment_value = None
+count = 0
+valueofoldpayment = None
 
 
 for line in s:
@@ -14,28 +14,26 @@ for line in s:
   paymentType, amount = data
 
   if paymentType != thisKey:
-    # if thisKey:
-    #   # output the last key value pair result
-    #   #r.write(thisKey + '\t' + str(thisValue)+'\n')
+    
 
     # start over when changing keys
     thisKey = paymentType 
     thisValue = 0.0
   
   # apply the aggregation function
-  #thisValue += float(amount)
-  if old_payment_value is None:
-    old_payment_value = paymentType
+ 
+  if valueofoldpayment is None:
+    valueofoldpayment = paymentType
 
-  if old_payment_value == paymentType:
-    counter = counter + 1
+  if valueofoldpayment == paymentType:
+    count = count + 1
   else:
-    r.write(old_payment_value + '\t' + str(counter)+'\n' )
-    counter = 1
-    old_payment_value = paymentType
+    r.write(valueofoldpayment + '\t' + str(count)+'\n' )
+    count = 1
+    valueofoldpayment = paymentType
 
 # output the final entry when done
-r.write(old_payment_value + '\t' + str(counter)+'\n' )
+r.write(valueofoldpayment + '\t' + str(count)+'\n' )
 
 s.close()
 r.close()
